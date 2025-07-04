@@ -72,11 +72,11 @@ In plain terms:
 
 > Objective: ensure the development environment is reproducible and automated.
 
-- [ ] **P00-S01** – Verify Node.js \>= 20.x and npm \>= 10.x installed on dev machine.
-- [ ] **P00-S02** – Run `npm ci` (clean install) and commit updated `package-lock.json`.
+- [x] **P00-S01** – Verify Node.js \>= 20.x and npm \>= 10.x installed on dev machine.
+- [x] **P00-S02** – Run `npm ci` (clean install) and commit updated `package-lock.json`.
 - [ ] **P00-S03** ⚡ – Configure **Turbo** remote caching (if using Vercel/Turbo Cloud).
-- [ ] **P00-S04** ⚡ – Set up **Husky** pre-commit with _eslint_ + _prettier_.
-- [ ] **P00-S05** ⚡ – Add **GitHub Actions** CI workflow: _npm ci_, _turbo run lint test build_.
+- [x] **P00-S04** ⚡ – Set up **Husky** pre-commit with _eslint_ + _prettier_.
+- [x] **P00-S05** ⚡ – Add **GitHub Actions** CI workflow: _npm ci_, _turbo run lint test build_.
 
 ## Phase 1 – Repo & Tooling Hygiene (ID: **P01**)
 

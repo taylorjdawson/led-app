@@ -93,6 +93,13 @@ The monorepo uses npm workspaces for internal dependencies. Package names:
 - Use descriptive commit messages that explain the purpose of the changes
 - Create commits with the standard format including Claude Code attribution
 
+## Task Tracking
+
+- **CRITICAL**: You MUST mark off tasks in `implementation_plan.md` as you complete them
+- Change `- [ ]` to `- [x]` for completed tasks in the implementation plan
+- This provides visual progress tracking and ensures no tasks are missed
+- Always update the implementation plan immediately after completing each task
+
 ## LED App Specific Context
 
 This is an LED control application with the following key features:
